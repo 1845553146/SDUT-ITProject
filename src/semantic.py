@@ -1,6 +1,9 @@
 """
 语义分析器 - 支持C语言子集
+负责人：孟迁。
+修改内容：优化四元式输出格式，增加更清晰的参数对齐
 """
+
 
 from lexer import Lexer, Token, Position
 from parser import Parser, ASTNode, ProgramNode, FunctionNode, BlockNode, \
